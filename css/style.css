@@ -349,10 +349,10 @@ img {
 .portfolio-examples-link {
   text-decoration: none;
 }
-
+/*
 .portfolio-examples-link .item {
 }
-/*
+
 .item a {
   display: block;
   border: 1px solid #eeeeee;
