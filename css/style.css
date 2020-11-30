@@ -226,9 +226,6 @@ img {
   justify-content: space-between;
 }
 
-.employees-title-list {
-  background-color: #ffffff;
-}
 /*
 .employees-title-list:not(:last-child) {
   margin-right: 30px;
@@ -338,6 +335,11 @@ img {
 
 .portfolio-examples .item {
   margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-examples .item:nth-last-child(-n=3) {
+  margin-bottom: 0px;
 }
 
 .portfolio-examples .item:nth-child(3n) {
@@ -348,11 +350,23 @@ img {
   text-decoration: none;
 }
 
+.portfolio-examples-link .item {
+}
+/*
+.item a {
+  display: block;
+  border: 1px solid #eeeeee;
+}*/
+.item-card {
+  margin: 20px 24px;
+}
+
 .example-name {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06ems;
   color: var(--title-text-color);
+  margin-bottom: 4px;
 }
 
 .example-type {
