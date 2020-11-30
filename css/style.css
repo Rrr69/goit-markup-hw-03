@@ -331,6 +331,7 @@ img {
 .portfolio-examples {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 
 .portfolio-examples .item {
@@ -338,12 +339,12 @@ img {
   margin-bottom: 30px;
 }
 
-.portfolio-examples .item:nth-last-child(-n=3) {
-  margin-bottom: 0px;
+.portfolio-examples .item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .portfolio-examples .item:nth-child(3n) {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .portfolio-examples-link {
