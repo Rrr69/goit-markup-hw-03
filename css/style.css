@@ -353,11 +353,11 @@ img {
 /*
 .portfolio-examples-link .item {
 }
-
+*/
 .item a {
   display: block;
-  border: 1px solid #eeeeee;
-}*/
+  outline: 1px solid #eeeeee;
+}
 .item-card {
   margin: 20px 24px;
 }
