@@ -136,13 +136,11 @@ img {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 /*Герой*/
 .hero {
-  width: 1600px;
-  height: 600px;
   background-color: #2f303a;
   text-align: center;
 }
@@ -183,6 +181,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .features-list-item:not(:last-child) {
@@ -191,14 +191,17 @@ img {
 
 .features-paragraph {
   min-width: 270px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.features-list {
-  margin-bottom: 94px;
+.section .features-list {
 }
 
 .container .features-list {
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-paragraph {
@@ -209,7 +212,7 @@ img {
 /*чем мы занимаемся*/
 .works-title {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .works-title-list:not(:last-child) {
@@ -217,13 +220,23 @@ img {
 }
 
 /*наша команда*/
-.employees-title {
+.container .employees-title {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+  justify-content: space-between;
 }
 
+.employees-title-list {
+  background-color: #ffffff;
+}
+/*
 .employees-title-list:not(:last-child) {
   margin-right: 30px;
+}
+*/
+.section .employee-list {
+  padding-top: 94px;
+  background-color: #f5f4fa;
 }
 
 .employee-name {
@@ -231,11 +244,17 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .employee-position {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 /*подвал*/
@@ -244,12 +263,8 @@ img {
   font-family: Roboto, sans-serif;
   font-style: normal;
   text-decoration: none;
-  display: flex;
-  justify-content: column;
-  align-items: center;
-  width: 1600px;
-  height: 252px;
   background-color: #2f303a;
+  padding-top: 60px;
 }
 
 .footer-address {
@@ -265,10 +280,68 @@ img {
   text-decoration: none;
 }
 
+.nav-filter {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.filter-button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  text-align: center;
+  display: inline-block;
+  border: 1px transparent;
+  min-width: 73px;
+  height: 38px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-list .item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .portfolio-list .filter-button:hover,
 .portfolio-list .filter-button:focus {
   background-color: var(--accent-color);
   color: var(--primary-page-color);
+}
+
+.address-style {
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+.footer-contacts {
+  margin-top: 9px;
+}
+
+.address-margin:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.portfolio-examples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-examples .item {
+  margin-right: 30px;
+}
+
+.portfolio-examples .item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .portfolio-examples-link {
@@ -286,6 +359,7 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
+  margin: 0;
 }
 
 .logo-second-footer {
