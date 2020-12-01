@@ -376,7 +376,8 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
-  margin: 0;
+  margin-top: 0;
+  padding-bottom: 30px;
 }
 
 .logo-second-footer {
