@@ -360,12 +360,16 @@ img {
 .portfolio-examples-link .item {
 }
 */
-.item a {
+.item img {
   display: block;
-  outline: 1px solid #eeeeee;
+  max-width: 100%;
+  height: auto;
 }
 .item-card {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  background: #ffffff;
+  /* Рамка не везде а только с трёх сторон */
+  border: 1px solid #eeeeee;
 }
 
 .example-name {
@@ -380,8 +384,7 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
-  margin-top: 0;
-  padding-bottom: 30px;
+  margin: 0;
 }
 
 .logo-second-footer {
