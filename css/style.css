@@ -236,7 +236,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.section .employee-list {
+.employee {
   padding-top: 94px;
   background-color: #f5f4fa;
 }
@@ -261,7 +261,7 @@ img {
 
 /*подвал*/
 
-.addresses-style .container {
+.addresses-style {
   font-family: Roboto, sans-serif;
   font-style: normal;
   text-decoration: none;
